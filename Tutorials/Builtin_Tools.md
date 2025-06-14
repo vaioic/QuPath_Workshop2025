@@ -69,7 +69,7 @@ Open the Single Measurement Classifier (Classify > Object classification > Creat
 Like in [Training an Object Classifier](#train-an-object-classifier), you can save the single measurement classifier to use on other images.
 
 ## Pixel Classifiers
-Training pixel classifiers are similar to training object classifiers, but use different annotations to mark examples. In this example, we are going to make a pixel classifier to automatically segment whole glomeruli.
+Training pixel classifiers is similar to training object classifiers, but use different annotations to mark examples. In this example, we are going to make a pixel classifier to automatically segment whole glomeruli.
 
 ### Train the Pixel Classifier
 First, create a new class and name it `glomerulus`. You can change the color of any class by double clicking the name and selecting a new color.
