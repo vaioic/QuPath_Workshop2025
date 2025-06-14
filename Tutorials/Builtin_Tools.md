@@ -60,10 +60,31 @@ Once the examples are annotated and the object classifier parameters are set, cl
 The benefit of training an object classifier with a machine learning algorithm is that it is more flexible to natural variation that can be seen across samples and batches because it uses multiple sets of measurements to make decisions on how a detection should be classified.
 
 ## Creating a Single Measurement Classifier
-Another approach to classifying cells is to use a hard coded threshold using a single measurement. This is less flexible to natural variation that may be seen across your data, but a great option for small and highly consistent datasets or single images. Do not set different threshold values for different images/data you plan to compare, instead train a classifier like in the section above.
+Another approach to classifying cells is to use a hard coded threshold using a single measurement. This is less flexible to natural variation that may be seen across your data, but a great option for small and highly consistent datasets or single images. Do not set different threshold values for different images/data you plan to compare, instead [train a classifier like in the section above](#train-an-object-classifier).
 
 Open the Single Measurement Classifier (Classify > Object classification > Create single measurement classifier). Change the Channel filter to EGFP, and set Above Threshold to Positive and Below Threshold to Negative. Then click on Live Preview. QuPath's default option is the mean intensity value of either the nucleus compartment or the cell and will make a good guess where the threshold should be. In this case, the suggested threshold does a reasonable job separating the positive and negative cells. Test out other measurement options or threshold values to get a feel for how this tool works.
 
 ![Single Measurement Classifier Preview](/Tutorials/Tutorial_Imgs/Single_Measurement_Classifier.png)
 
-Like in Training an Object Classifier, you can save the single measurement classifier to use on other images.
+Like in [Training an Object Classifier](#train-an-object-classifier), you can save the single measurement classifier to use on other images.
+
+## Pixel Classifiers
+Training pixel classifiers are similar to training object classifiers, but use different annotations to mark examples. In this example, we are going to make a pixel classifier to automatically segment whole glomeruli.
+
+First, create a new class and name it `glomerulus`. You can change the color of any class by double clicking the name and selecting a new color.
+
+![Adding a Class](/Tutorials/Tutorial_Imgs/Add_Class.png)
+
+Using the Open Polygon annotation tool, start marking examples of a couple glomeruli. Leave some unmarked so we can assess how the classifier is performing. Give attention to the edge of the objects so the classifier learns the boundary of the objects. In the Annotation menu, Ctrl+Click all annotations that are on glomeruli and then set their class to `glomerulus`.
+
+*Tip: Instead of creating unclassified annotations, and then classifying them, highlight the class you are going to mark and then click Auto Set. All subsequent annotations will automatically be assigned that class. Just remember to change the class as you are marking different examples.*
+
+![Adding Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations.png)
+
+After marking some glomeruli, add in some examples of what is not a glomeruli. These will be classified as `Ignore`.
+
+![Adding Ignore Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations2.png)
+
+Open Train Pixel Classifier (Classify > Pixel Classification > Train Pixel Classifier) and adjust the parameters to the following:
+
+![Pixel classifier parameters](/Tutorials/Tutorial_Imgs/Pixel_classifier_parameters.png)
