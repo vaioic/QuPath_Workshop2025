@@ -43,3 +43,5 @@
     [Link to HD video of GIF](https://vanandelinstitute-my.sharepoint.com/:v:/g/personal/kristin_gallik_vai_org/EdF_U07qQhdHoG4uNjMmOjsBb7V7W9bvyvE4FcMSaFXTEw?e=MtjvNQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
+
+[Link to the slide deck presented, covers the layout of QuPath's Graphic User Interface](https://vanandelinstitute-my.sharepoint.com/:p:/g/personal/kristin_gallik_vai_org/EW2hmxe3mDJBmM5PNXSkau4BSGk77gxMTWqw_CFqQ10eiw?e=b7hiwj)
