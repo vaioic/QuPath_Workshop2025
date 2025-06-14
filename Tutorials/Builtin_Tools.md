@@ -1,8 +1,8 @@
 # QuPath's Built in Analysis Tools
 There are three main sets of analysis tools built into QuPath v5.1:
-- Cell Detection
-- Object Classifiers
-- Pixel Classifiers
+- [Cell Detection](#cell-detection)
+- [Object Classifiers](#object-classifiers)
+- [Pixel Classifiers](#pixel-classifiers)
 
 **Cell Detection** uses more traditional methods of segmentation to find objects like nuclei, cell bodies, or other blob-like objects. The interactive tool allows the user to adjust parameters to smooth the image, correct background, and set a threshold that work well with the data.
 
