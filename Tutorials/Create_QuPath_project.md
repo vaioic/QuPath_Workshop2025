@@ -41,4 +41,4 @@
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
 
     
-    
+   <iframe src="https://vanandelinstitute-my.sharepoint.com/personal/kristin_gallik_vai_org/_layouts/15/embed.aspx?UniqueId=4e537fd1-42ea-4717-a06e-2e3633263a3b&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Adding_Images.mp4"></iframe> 
