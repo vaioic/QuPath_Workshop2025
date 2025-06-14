@@ -61,3 +61,9 @@ The benefit of training an object classifier with a machine learning algorithm i
 
 ## Creating a Single Measurement Classifier
 Another approach to classifying cells is to use a hard coded threshold using a single measurement. This is less flexible to natural variation that may be seen across your data, but a great option for small and highly consistent datasets or single images. Do not set different threshold values for different images/data you plan to compare, instead train a classifier like in the section above.
+
+Open the Single Measurement Classifier (Classify > Object classification > Create single measurement classifier). Change the Channel filter to EGFP, and set Above Threshold to Positive and Below Threshold to Negative. Then click on Live Preview. QuPath's default option is the mean intensity value of either the nucleus compartment or the cell and will make a good guess where the threshold should be. In this case, the suggested threshold does a reasonable job separating the positive and negative cells. Test out other measurement options or threshold values to get a feel for how this tool works.
+
+![Single Measurement Classifier Preview](/Tutorials/Tutorial_Imgs/Single_Measurement_Classifier.png)
+
+Like in Training an Object Classifier, you can save the single measurement classifier to use on other images.
