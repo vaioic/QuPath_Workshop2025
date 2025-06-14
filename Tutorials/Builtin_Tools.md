@@ -106,4 +106,11 @@ Preview the results with Live Prediction and add in open polygon annotations for
 ![Example Preview](/Tutorials/Tutorial_Imgs/Pixel_classifier_preview.png)
 
 ### Make Objects From the Pixel Classifier
+Name and save the classifier to use later. 
 
+Create objects from the pixel classifier (may need to be a trial and error process to find the minimum size for excluding false-positives). Select Annotations as the object type if you would like to add cell detections within the glomeruli. Select Detections for a lightweight option and if you don't plan to detect cells inside the glomeruli.
+
+These parameters worked well for this data and the pixel classifier I generated:
+![Pixel Classifier Object settings](/Tutorials/Tutorial_Imgs/Pixel_classifier_create_objects2.png)
+
+*Tip: The Split Objects option can be used if you want to know information about each individual object detected. If you are only interested in the class as a whole, then this option does not have to be used and will be less computationally intense. Be careful of the Delete Existing Objects Option as it will remove everything, use with caution.*
