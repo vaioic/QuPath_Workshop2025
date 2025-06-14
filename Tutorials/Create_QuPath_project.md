@@ -30,6 +30,8 @@
     *Tip: A startup dialog will appear the first time you open QuPath, if you do not want it to pop up each time you start the software, select the option to disable it on the window.*
 
 
-3. Drag and drop the empty folder into the open intance of QuPath
+3. Drag and drop the empty folder into the open intance of QuPath.
+    ![Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project.gif)
+    
     
     
