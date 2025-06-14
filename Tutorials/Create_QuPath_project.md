@@ -31,7 +31,8 @@
 
 
 3. Drag and drop the empty folder into the open intance of QuPath.
+
     ![Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project.gif)
-    
+
     
     
