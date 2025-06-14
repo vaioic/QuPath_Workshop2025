@@ -26,10 +26,11 @@ Adjust the parameters until you are satisfied with the results. Below are the se
 ![Cell Detection Parameters and Results](/Tutorials/Tutorial_Imgs/Cell_Detection_Parameters.png)
 
 ## Object Classifiers
-Using the same objects above, we will train an object classifier to group objects as positive or negative for EGFP. 
+Using the same objects above, we will create two types of object classifiers to group objects as positive or negative for EGFP. 
 
 **Important! You need measurements in order to classify objects, make sure that `Make measurements` was selected when detecting the nuclei.**
 
+### Train an Object Classifier
 Before we train the object classifier, we need to mark some examples of positive and negative cells. Add two Points annotations by clicking the points annotation tool and then clicking `Add` on the popup menu twice. These annotations will be visible under the Annotations tab.
 
 ![Adding Points Annotations](/Tutorials/Tutorial_Imgs/Points_Annotations.png)
@@ -37,4 +38,15 @@ Before we train the object classifier, we need to mark some examples of positive
 Then set the class of one points annotation to Positive and the other to Negative.
 
 ![Setting class of annotations](/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png)
+
+Using the brightness and contrast menu, turn off the DAPI and AF568 channel so that only the EGFP channel is visible. This will make finding positive and negative examples easier.
+
+Using the Positive and Negative Points Annotations, mark examples of cells positive and negative for EGFP. Aim to have roughly equal numbers of examples.
+
+![Positive and Negative Examples](/Tutorials/Tutorial_Imgs/PositiveNegative_Examples.png)
+
+Open the Object classifier (Classify > Object Classification > Train Object Classifier) and then change the Feature parameters from `All Measurements` to `Selected Measurements`. Click select and search for EGFP in the new window. Select all of the EGFP related measurements and then click apply.
+
+![Object Classifier Settings](/Tutorials/Tutorial_Imgs/Object_Classifier_Settings.png)
+
 
