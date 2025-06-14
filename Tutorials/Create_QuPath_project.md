@@ -7,7 +7,8 @@
     Nativate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
 
     Using the `hpc desktop`, start a `short` partition for `4 hours` using `16 cores`.
-    ![Image of OnDemand Options](https://github.com/vaioic/QuPath_Workshop2025/blob/main/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
+    ![Image of HPC OnDemand System](/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
+
     ![Image of short partition settings](/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png)
     
     Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virutal desktop.
@@ -30,15 +31,17 @@
     *Tip: A startup dialog will appear the first time you open QuPath, if you do not want it to pop up each time you start the software, select the option to disable it on the window.*
 
 
-3. Drag and drop the empty folder into the open intance of QuPath.
+3. Drag and drop the empty folder into the open instance of QuPath.
 
     ![GIF of Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project-2.gif)
 
+    [Link to HD video of GIF]()
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
-    ![GIF of Adding Iamges to Project](/Tutorials/Tutorial_Imgs/Adding_Images.gif)
+    ![GIF of Adding Images to Project](/Tutorials/Tutorial_Imgs/Adding_Images.gif)
+    
+    [Link to HD video of GIF]()
 
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
 
-    
-   <iframe src="https://vanandelinstitute-my.sharepoint.com/personal/kristin_gallik_vai_org/_layouts/15/embed.aspx?UniqueId=4e537fd1-42ea-4717-a06e-2e3633263a3b&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Adding_Images.mp4"></iframe> 
+ <video controls src="/Tutorials/Tutorial_Imgs/Adding_Images.mp4" title="Title"></video>
