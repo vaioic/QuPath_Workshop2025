@@ -15,4 +15,26 @@ Add/open the Kidney_3Chan.czi image to/in your QuPath project. Navigate and zoom
 
 ![Image of an ROI on the kidney image](/Tutorials/Tutorial_Imgs/Kidney_ROI.png)
 
+Open Cell Detection (Analyze > Cell detection > Cell detection)
+
+![Cell Detection Location](/Tutorials/Tutorial_Imgs/Cell_Detection_Menu.png)
+
+Adjust the parameters until you are satisfied with the results. Below are the settings I found to work reasonably well.
+
+*Note: this will not be perfect and that's okay!*
+
+![Cell Detection Parameters and Results](/Tutorials/Tutorial_Imgs/Cell_Detection_Parameters.png)
+
+## Object Classifiers
+Using the same objects above, we will train an object classifier to group objects as positive or negative for EGFP. 
+
+**Important! You need measurements in order to classify objects, make sure that `Make measurements` was selected when detecting the nuclei.**
+
+Before we train the object classifier, we need to mark some examples of positive and negative cells. Add two Points annotations by clicking the points annotation tool and then clicking `Add` on the popup menu twice. These annotations will be visible under the Annotations tab.
+
+![Adding Points Annotations](/Tutorials/Tutorial_Imgs/Points_Annotations.png)
+
+Then set the class of one points annotation to Positive and the other to Negative.
+
+![Setting class of annotations](/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png)
 
