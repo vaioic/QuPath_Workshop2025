@@ -71,6 +71,7 @@ Like in [Training an Object Classifier](#train-an-object-classifier), you can sa
 ## Pixel Classifiers
 Training pixel classifiers are similar to training object classifiers, but use different annotations to mark examples. In this example, we are going to make a pixel classifier to automatically segment whole glomeruli.
 
+### Train the Pixel Classifier
 First, create a new class and name it `glomerulus`. You can change the color of any class by double clicking the name and selecting a new color.
 
 ![Adding a Class](/Tutorials/Tutorial_Imgs/Add_Class.png)
@@ -81,10 +82,28 @@ Using the Open Polygon annotation tool, start marking examples of a couple glome
 
 ![Adding Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations.png)
 
-After marking some glomeruli, add in some examples of what is not a glomeruli. These will be classified as `Ignore`.
+After marking some glomeruli, add in some examples of what is not a glomeruli. These will be classified as `Ignore*`.
 
 ![Adding Ignore Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations2.png)
 
 Open Train Pixel Classifier (Classify > Pixel Classification > Train Pixel Classifier) and adjust the parameters to the following:
 
+- Classifier: RTrees
+- Resolution: High (1.38 um/pixel)
+- Features:
+  - Channels: DAPI, EGFP, AF568
+  - Scales: 1.0, 2.0, 4.0, 8.0
+  - Features: Select All
+  - Local Normalization: Mean and Variance 
+  - Local Normalization scale: 8
+- Output: Classification
+- Region: Everywhere
+  
 ![Pixel classifier parameters](/Tutorials/Tutorial_Imgs/Pixel_classifier_parameters.png)
+
+Preview the results with Live Prediction and add in open polygon annotations for the `glomerulus` and `Ignore*` classes until the preview of the results seem reasonable. Below example has the annotations hidden for easier visibility.
+
+![Example Preview](/Tutorials/Tutorial_Imgs/Pixel_classifier_preview.png)
+
+### Make Objects From the Pixel Classifier
+
