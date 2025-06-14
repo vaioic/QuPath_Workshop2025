@@ -7,7 +7,7 @@
     Nativate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
 
     Using the `hpc desktop`, start a `short` partition for `4 hours` using `16 cores`.
-    ![Image of OnDemand Options](/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
+    ![Image of OnDemand Options](https://github.com/vaioic/QuPath_Workshop2025/blob/main/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
     ![Image of short partition settings](/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png)
     
     Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virutal desktop.
