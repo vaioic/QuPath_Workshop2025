@@ -32,7 +32,7 @@
 
 3. Drag and drop the empty folder into the open intance of QuPath.
 
-    ![GIF of Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project.gif)
+    ![GIF of Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project-2.gif)
 
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
