@@ -49,4 +49,15 @@ Open the Object classifier (Classify > Object Classification > Train Object Clas
 
 ![Object Classifier Settings](/Tutorials/Tutorial_Imgs/Object_Classifier_Settings.png)
 
+In the Training option, change it from `Unlocked annotations` to `Points only`. 
 
+*Note: if you were using training data across multiple images, or a specific training image, then you would select Load training and specify which images to use for training the object classifier. In this case, **only the examples of classes from the selected images would be used**.*
+
+Once the examples are annotated and the object classifier parameters are set, click on the Live update button to preview. You can also name and save the classier for use on other images.
+
+![Preview of Classifier](/Tutorials/Tutorial_Imgs/Preview_Classifier.png)
+
+The benefit of training an object classifier with a machine learning algorithm is that it is more flexible to natural variation that can be seen across samples and batches because it uses multiple sets of measurements to make decisions on how a detection should be classified.
+
+## Creating a Single Measurement Classifier
+Another approach to classifying cells is to use a hard coded threshold using a single measurement. This is less flexible to natural variation that may be seen across your data, but a great option for small and highly consistent datasets or single images. Do not set different threshold values for different images/data you plan to compare, instead train a classifier like in the section above.
