@@ -35,13 +35,11 @@
 
     ![GIF of Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project-2.gif)
 
-    [Link to HD video of GIF]()
+    [Link to HD video of GIF](https://vanandelinstitute-my.sharepoint.com/:v:/g/personal/kristin_gallik_vai_org/ERhK065VogdClsJmVZ3Ml-UBhhr9p4Hy_Aq2wNvSC_HsYQ?e=gfpV6W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
     ![GIF of Adding Images to Project](/Tutorials/Tutorial_Imgs/Adding_Images.gif)
     
-    [Link to HD video of GIF]()
+    [Link to HD video of GIF](https://vanandelinstitute-my.sharepoint.com/:v:/g/personal/kristin_gallik_vai_org/EdF_U07qQhdHoG4uNjMmOjsBb7V7W9bvyvE4FcMSaFXTEw?e=MtjvNQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
-
- <video controls src="/Tutorials/Tutorial_Imgs/Adding_Images.mp4" title="Title"></video>
