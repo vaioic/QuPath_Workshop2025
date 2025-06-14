@@ -36,7 +36,9 @@
 
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
-    ![GIF of Adding Iamges to Project]()
+    ![GIF of Adding Iamges to Project](/Tutorials/Tutorial_Imgs/Adding_Images.gif)
+
+    Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
 
     
     
