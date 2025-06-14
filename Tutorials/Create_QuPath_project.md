@@ -3,6 +3,7 @@
 2. Open QuPath:
 
     **Option 1**: Opening QuPath through OnDemand
+    [Link to video walk through](https://vanandelinstitute.sharepoint.com/:v:/s/optical/EfpUD6Mp1U1LpWS3P44X38wBOOi02MNeVR-qQpkoK-a7Cw?e=cy5SNH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
     
     Nativate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
 
