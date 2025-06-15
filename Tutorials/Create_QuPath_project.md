@@ -37,11 +37,11 @@
 
 3. Drag and drop the empty folder into the open instance of QuPath.
 
-    ![Creating a Project]()
+    <img src="/Tutorials/Tutorial_Imgs/Creating_Project.png" width="775" height="428"><br>
 
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
-    ![Adding Images to Project]()
+     <img src="/Tutorials/Tutorial_Imgs/Adding_Images.png" width="775" height="428"><br>
     
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
 
