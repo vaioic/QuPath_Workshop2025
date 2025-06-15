@@ -13,17 +13,17 @@ There are three main sets of analysis tools built into QuPath v5.1:
 ## Cell Detection
 Add/open the Kidney_3Chan.czi image to/in your QuPath project. Navigate and zoom into a region of the image that contains a few glomeruli and draw a small rectangle using the rectangle annotation tool.
 
-![Image of an ROI on the kidney image](/Tutorials/Tutorial_Imgs/Kidney_ROI.png)
+<img src="/Tutorials/Tutorial_Imgs/Kidney_ROI.png" width="775" height="428"><br>
 
 Open Cell Detection (Analyze > Cell detection > Cell detection)
 
-![Cell Detection Location](/Tutorials/Tutorial_Imgs/Cell_Detection_Menu.png)
+<img src="/Tutorials/Tutorial_Imgs/Cell_Detection_Menu.png" width="417" height="161"><br>
 
 Adjust the parameters until you are satisfied with the results. Below are the settings I found to work reasonably well.
 
 *Note: this will not be perfect and that's okay!*
 
-![Cell Detection Parameters and Results](/Tutorials/Tutorial_Imgs/Cell_Detection_Parameters.png)
+<img src="/Tutorials/Tutorial_Imgs/Cell_Detection_Parameters.png" width="545" height="330"><br>
 
 ## Object Classifiers
 Using the same objects above, we will create two types of object classifiers to group objects as positive or negative for EGFP. 
@@ -33,21 +33,21 @@ Using the same objects above, we will create two types of object classifiers to 
 ### Train an Object Classifier
 Before we train the object classifier, we need to mark some examples of positive and negative cells. Add two Points annotations by clicking the points annotation tool and then clicking `Add` on the popup menu twice. These annotations will be visible under the Annotations tab.
 
-![Adding Points Annotations](/Tutorials/Tutorial_Imgs/Points_Annotations.png)
+<img scr="/Tutorials/Tutorial_Imgs/Points_Annotations.png" width="372" height="379"><br>
 
 Then set the class of one points annotation to Positive and the other to Negative.
 
-![Setting class of annotations](/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png)
+<img scr="/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png" width="294" height="378"><br>
 
 Using the brightness and contrast menu, turn off the DAPI and AF568 channel so that only the EGFP channel is visible. This will make finding positive and negative examples easier.
 
 Using the Positive and Negative Points Annotations, mark examples of cells positive and negative for EGFP. Aim to have roughly equal numbers of examples.
 
-![Positive and Negative Examples](/Tutorials/Tutorial_Imgs/PositiveNegative_Examples.png)
+<img src="/Tutorials/Tutorial_Imgs/PositiveNegative_Examples.png" width="766" height="425"><br>
 
 Open the Object classifier (Classify > Object Classification > Train Object Classifier) and then change the Feature parameters from `All Measurements` to `Selected Measurements`. Click select and search for EGFP in the new window. Select all of the EGFP related measurements and then click apply.
 
-![Object Classifier Settings](/Tutorials/Tutorial_Imgs/Object_Classifier_Settings.png)
+<img src="/Tutorials/Tutorial_Imgs/Object_Classifier_Settings.png" width="406" height="310"><br>
 
 In the Training option, change it from `Unlocked annotations` to `Points only`. 
 
@@ -55,7 +55,7 @@ In the Training option, change it from `Unlocked annotations` to `Points only`.
 
 Once the examples are annotated and the object classifier parameters are set, click on the Live update button to preview. You can also name and save the classier for use on other images.
 
-![Preview of Classifier](/Tutorials/Tutorial_Imgs/Preview_Classifier.png)
+<img src="/Tutorials/Tutorial_Imgs/Preview_Classifier.png" width="618" height="349"><br>
 
 The benefit of training an object classifier with a machine learning algorithm is that it is more flexible to natural variation that can be seen across samples and batches because it uses multiple sets of measurements to make decisions on how a detection should be classified.
 
@@ -64,7 +64,7 @@ Another approach to classifying cells is to use a hard coded threshold using a s
 
 Open the Single Measurement Classifier (Classify > Object classification > Create single measurement classifier). Change the Channel filter to EGFP, and set Above Threshold to Positive and Below Threshold to Negative. Then click on Live Preview. QuPath's default option is the mean intensity value of either the nucleus compartment or the cell and will make a good guess where the threshold should be. In this case, the suggested threshold does a reasonable job separating the positive and negative cells. Test out other measurement options or threshold values to get a feel for how this tool works.
 
-![Single Measurement Classifier Preview](/Tutorials/Tutorial_Imgs/Single_Measurement_Classifier.png)
+<img src="/Tutorials/Tutorial_Imgs/Single_Measurement_Classifier.png" width="630" height="418"><br>
 
 Like in [Training an Object Classifier](#train-an-object-classifier), you can save the single measurement classifier to use on other images.
 
@@ -74,7 +74,7 @@ Training pixel classifiers is similar to training object classifiers, but use di
 ### Train the Pixel Classifier
 First, create a new class and name it `glomerulus`. You can change the color of any class by double clicking the name and selecting a new color.
 
-![Adding a Class](/Tutorials/Tutorial_Imgs/Add_Class.png)
+<img src="/Tutorials/Tutorial_Imgs/Add_Class.png" width="338" height=""><br>
 
 Using the Open Polygon annotation tool, start marking examples of a couple glomeruli. Leave some unmarked so we can assess how the classifier is performing. Give attention to the edge of the objects so the classifier learns the boundary of the objects. In the Annotation menu, Ctrl+Click all annotations that are on glomeruli and then set their class to `glomerulus`.
 
