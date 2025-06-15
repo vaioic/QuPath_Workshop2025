@@ -80,11 +80,11 @@ Using the Open Polygon annotation tool, start marking examples of a couple glome
 
 *Tip: Instead of creating unclassified annotations, and then classifying them, highlight the class you are going to mark and then click Auto Set. All subsequent annotations will automatically be assigned that class. Just remember to change the class as you are marking different examples.*
 
-![Adding Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations.png)
+<img src="/Tutorials/Tutorial_Imgs/Adding_Annotations.png" width="1273" height="738"><br>
 
 After marking some glomeruli, add in some examples of what is not a glomeruli. These will be classified as `Ignore*`.
 
-![Adding Ignore Annotations](/Tutorials/Tutorial_Imgs/Adding_Annotations2.png)
+<img src="/Tutorials/Tutorial_Imgs/Adding_Annotations2.png" width="1155" height="666"><br>
 
 Open Train Pixel Classifier (Classify > Pixel Classification > Train Pixel Classifier) and adjust the parameters to the following:
 
@@ -99,11 +99,11 @@ Open Train Pixel Classifier (Classify > Pixel Classification > Train Pixel Class
 - Output: Classification
 - Region: Everywhere
   
-![Pixel classifier parameters](/Tutorials/Tutorial_Imgs/Pixel_classifier_parameters.png)
+<img src="/Tutorials/Tutorial_Imgs/Pixel_classifier_parameters.png" width="615" height="375"><br>
 
 Preview the results with Live Prediction and add in open polygon annotations for the `glomerulus` and `Ignore*` classes until the preview of the results seem reasonable. Below example has the annotations hidden for easier visibility.
 
-![Example Preview](/Tutorials/Tutorial_Imgs/Pixel_classifier_preview.png)
+<img src="/Tutorials/Tutorial_Imgs/Pixel_classifier_preview.png" width="480" height="755"><br>
 
 ### Make Objects From the Pixel Classifier
 Name and save the classifier to use later. 
@@ -111,6 +111,7 @@ Name and save the classifier to use later.
 Create objects from the pixel classifier (may need to be a trial and error process to find the minimum size for excluding false-positives). Select Annotations as the object type if you would like to add cell detections within the glomeruli. Select Detections for a lightweight option and if you don't plan to detect cells inside the glomeruli.
 
 These parameters worked well for this data and the pixel classifier I generated:
-![Pixel Classifier Object settings](/Tutorials/Tutorial_Imgs/Pixel_classifier_create_objects2.png)
+
+<img src="/Tutorials/Tutorial_Imgs/Pixel_classifier_create_objects2.png" width="543" height="399"><br>
 
 *Tip: The Split Objects option can be used if you want to know information about each individual object detected. If you are only interested in the class as a whole, then this option does not have to be used and will be less computationally intense. Be careful of the Delete Existing Objects Option as it will remove everything, use with caution.*
