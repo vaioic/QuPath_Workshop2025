@@ -8,7 +8,7 @@ Welcome to the mini workshop for QuPath! You will find tutorials on the differen
 - [CellPose]()
 - [StarDist]()
 - [Segment Anything Model (SAM)]()
-- [Making a resuable workflow]()
+- [Making a reusable workflow]()
 
 
 
