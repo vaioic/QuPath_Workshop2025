@@ -9,7 +9,7 @@
 
     Using the `hpc desktop`, start a `short` partition for `4 hours` using `16 cores`.
     
-    <img src="/Tutorials/Tutorial_Imgs/OnDemand_pic.png" width="200" height="100">
+    <img src="/Tutorials/Tutorial_Imgs/OnDemand_pic.png" width="500" height="200">
 
     ![Image of HPC OnDemand System](/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
 
