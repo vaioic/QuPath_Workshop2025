@@ -18,15 +18,15 @@ Create a full image annotation with `Ctrl+Shift+A` to create a rectangle annotat
 
 Any parameters not mentioned are left at their default settings.
 
-![Cell Detection Parameters](/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection.png)
+<img src="/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection.png" width="275" height="436"><br>
 
 You should see something like this:
 
-![Detection Example](/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection_Results.png)
+<img src="/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection_Results.png" width="477" height="474"><br>
 
 Double click on any of the cell detections to view its measurements in the annotation tab.
 
-![Cell Measurements](/Tutorials/Tutorial_Imgs/BPAE_Cell_Measurements.png)
+<img src="/Tutorials/Tutorial_Imgs/BPAE_Cell_Measurements.png" width="488" height="429"><br>
 
 In addition to shape descriptor measurements, there are compartment specific measurements for each channel (e.g., Nucleus, Cytoplasm, and Cell). However, the measurements listed here are not the only ones available through QuPath. Intensity measurements that capture the texture and distribution of the fluorescence can be added.
 
@@ -39,7 +39,7 @@ For today, we will only add Haralick features under Add intensity features. When
 
 If you want to read more about how Haralick features are calculated, here is a [nice resource document](https://juliaimages.org/ImageFeatures.jl/stable/tutorials/glcm/).
 
-![Haralick Features](/Tutorials/Tutorial_Imgs/Haralick_Features.png)
+<img src="/Tutorials/Tutorial_Imgs/Haralick_Features.png" width="293" height="443"><br>
 
 *Note: the settings for ROIs can be ignored, this only applies to specific ROIs in use which are outside the scope of this tutorial/workshop.*
 
