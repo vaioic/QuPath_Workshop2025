@@ -52,6 +52,6 @@ QuPath has several options for exporting measurements, these are based on the hi
 - Detection/Cell level: Gives detailed information about each detection including hierarchy, measurements, and class
 - TMA Cores level: Similar to Annotation level, but also includes the assigned coordinate location of the TMA core.
 
-Open the Export measurements (Measure > Export measurements) and specify the level of measurements to export and optionally specify measurements to export. If no measurements are specified, then all measurements are exported. Additionally select where the measurements should be saved and the separator type (all options can be opened with R, Excel, or other data frame readers).
+Open the Export measurements (Measure > Export measurements) and select the image(s) to export the measurements of (use arrow keys on the window to move from left to right window), specify the measurement level, and optionally specify measurements to export. If no measurements are specified, then all measurements are exported. Additionally select where the measurements should be saved and the separator type (all options can be opened with R, Excel, or other data frame readers).
 
 <img src="/Tutorials/Tutorial_Imgs/Saving_Measurements.png" width="456" height="375"><br>
