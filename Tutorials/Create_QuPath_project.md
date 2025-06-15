@@ -8,6 +8,9 @@
     Navigate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
 
     Using the `hpc desktop`, start a `short` partition for `4 hours` using `16 cores`.
+    
+    <img src="/Tutorials/Tutorial_Imgs/OnDemand_pic.png" width="200" height="100">
+
     ![Image of HPC OnDemand System](/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
 
     ![Image of short partition settings](/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png)
