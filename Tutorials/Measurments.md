@@ -16,7 +16,7 @@ Create a full image annotation with `Ctrl+Shift+A` to create a rectangle annotat
 - Threshold: 500
 - Cell expansion: 5 um
 
-Any parameters not mentioned were left at their default settings.
+Any parameters not mentioned are left at their default settings.
 
 ![Cell Detection Parameters](/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection.png)
 
@@ -28,14 +28,14 @@ Double click on any of the cell detections to view its measurements in the annot
 
 ![Cell Measurements](/Tutorials/Tutorial_Imgs/BPAE_Cell_Measurements.png)
 
-In addition to shape descriptor measurements, there will be compartment specific measurements for each channel. However, the measurements listed here are not the only ones available through QuPath. Intensity measurements that capture the texture and distribution of the fluorescence can be added.
+In addition to shape descriptor measurements, there are compartment specific measurements for each channel (e.g., Nucleus, Cytoplasm, and Cell). However, the measurements listed here are not the only ones available through QuPath. Intensity measurements that capture the texture and distribution of the fluorescence can be added.
 
 Under Analyze > Calculate Features, there are three options:
 - Add smoothed features
 - Add intensity features
 - Add shape features
 
-For today, we will only add Haralick features under Add intensity features. When calculating Haralick features on fluorescence images, a minimum and maximum grey value needs to be given. Use the brightness and contrast menu to determine the minimum and maximum values are in the channels. In this image, the maximum values are fairly similar, so the same minimum and maximum values can be used for all channels at 0 and 25000, respectively.
+For today, we will only add Haralick features under Add intensity features. When calculating Haralick features on fluorescence images, a minimum and maximum grey value needs to be given. Use the brightness and contrast menu to determine the minimum and maximum values of the channels. In this image, the maximum values are similar, so the same minimum and maximum values can be used for all channels at 0 and 25000, respectively.
 
 If you want to read more about how Haralick features are calculated, here is a [nice resource document](https://juliaimages.org/ImageFeatures.jl/stable/tutorials/glcm/).
 
@@ -43,6 +43,6 @@ If you want to read more about how Haralick features are calculated, here is a [
 
 *Note: the settings for ROIs can be ignored, this only applies to specific ROIs in use which are outside the scope of this tutorial/workshop.*
 
-Select Cells in the prompt window the pops up after clicking Run.
+Select Cells in the popup window after clicking Run.
 
 ## Exporting measurements
