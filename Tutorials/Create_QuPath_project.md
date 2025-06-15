@@ -14,10 +14,12 @@
     <img src="/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png" width="469" height="375"><br>
     
     Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virtual desktop.
-    ![Image of Virtual Desktop settings](/Tutorials/Tutorial_Imgs/OnDemand_desktop_settings_pic.png)
+
+    <img src="/Tutorials/Tutorial_Imgs/OnDemand_desktop_settings_pic.png" width="467" height="205"><br>
 
     Open the terminal
-    ![Picture of Terminal window and app location](/Tutorials/Tutorial_Imgs/Terimal_pic.png)
+
+    <img src="/Tutorials/Tutorial_Imgs/Terimal_pic.png" width="575" height="387"><br>
 
     Use the following commands, individually, to open QuPath
     ```
@@ -26,7 +28,7 @@
     ```
     *Tip: If you forget the command to open the software use `module help imaging/QuPath-0.5.1` to get the command.*
 
-    ![Terminal Commands to Open QuPath](/Tutorials/Tutorial_Imgs/Terimal_Commands_pic.png)
+    <img src="/Tutorials/Tutorial_Imgs/Terimal_Commands_pic.png" width="410" height="257"><br>
 
     **Option 2**: If you have QuPath installed on your own device, open it as you would any other application.
 
