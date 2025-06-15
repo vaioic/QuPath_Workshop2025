@@ -23,3 +23,7 @@ Select the Rectangle Annotation button in the window and then click Live Mode. D
 
 <img src='/Tutorials/PNGs/SAM_Outline.png' width='372' height='239'><br>
 <img src='/Tutorials/PNGs/SAM_Outline2.png' width='372' height='239'><br>
+
+SAM segmentation is context dependent. Try zooming in and finding a glomeruli and using the rectangle prompt to segment it.
+
+<img src='/Tutorials/PNGs/SAM_Glomeruli.png' width='343' height='353'><br>
