@@ -33,11 +33,11 @@ Using the same objects above, we will create two types of object classifiers to 
 ### Train an Object Classifier
 Before we train the object classifier, we need to mark some examples of positive and negative cells. Add two Points annotations by clicking the points annotation tool and then clicking `Add` on the popup menu twice. These annotations will be visible under the Annotations tab.
 
-<img scr="/Tutorials/Tutorial_Imgs/Points_Annotations.png" width="372" height="379"><br>
+<img src="/Tutorials/Tutorial_Imgs/Points_Annotations.png" width="372" height="379"><br>
 
 Then set the class of one points annotation to Positive and the other to Negative.
 
-<img scr="/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png" width="294" height="378"><br>
+<img src="/Tutorials/Tutorial_Imgs/Setting_Class_of_Annotations.png" width="294" height="378"><br>
 
 Using the brightness and contrast menu, turn off the DAPI and AF568 channel so that only the EGFP channel is visible. This will make finding positive and negative examples easier.
 
