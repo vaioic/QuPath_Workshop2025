@@ -46,3 +46,12 @@ If you want to read more about how Haralick features are calculated, here is a [
 Select Cells in the popup window after clicking Run.
 
 ## Exporting measurements
+QuPath has several options for exporting measurements, these are based on the hierarchy of the image and its objects.
+- Image level: Gives summary of object classes and counts
+- Annotation level: Gives high level information about all annotations in the image. This includes measurements, and classes and counts of detections contained within the annotation.
+- Detection/Cell level: Gives detailed information about each detection including hierarchy, measurements, and class
+- TMA Cores level: Similar to Annotation level, but also includes the assigned coordinate location of the TMA core.
+
+Open the Export measurements (Measure > Export measurements) and specify the level of measurements to export and optionally specify measurements to export. If no measurements are specified, then all measurements are exported. Additionally select where the measurements should be saved and the separator type (all options can be opened with R, Excel, or other data frame readers).
+
+<img src="/Tutorials/Tutorial_Imgs/Saving_Measurements.png" width="456" height="375"><br>
