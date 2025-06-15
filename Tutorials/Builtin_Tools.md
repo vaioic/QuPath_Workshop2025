@@ -74,7 +74,7 @@ Training pixel classifiers is similar to training object classifiers, but use di
 ### Train the Pixel Classifier
 First, create a new class and name it `glomerulus`. You can change the color of any class by double clicking the name and selecting a new color.
 
-<img src="/Tutorials/Tutorial_Imgs/Add_Class.png" width="338" height=""><br>
+<img src="/Tutorials/Tutorial_Imgs/Add_Class.png" width="338" height="367"><br>
 
 Using the Open Polygon annotation tool, start marking examples of a couple glomeruli. Leave some unmarked so we can assess how the classifier is performing. Give attention to the edge of the objects so the classifier learns the boundary of the objects. In the Annotation menu, Ctrl+Click all annotations that are on glomeruli and then set their class to `glomerulus`.
 
