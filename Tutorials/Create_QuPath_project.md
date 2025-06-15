@@ -11,7 +11,7 @@
     
     <img src="/Tutorials/Tutorial_Imgs/OnDemand_pic.png" width="500" height="200">
 
-    <img src="/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png" width="500" height="200">
+    <img src="/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png" width="235" height="188">
     
     Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virtual desktop.
     ![Image of Virtual Desktop settings](/Tutorials/Tutorial_Imgs/OnDemand_desktop_settings_pic.png)
