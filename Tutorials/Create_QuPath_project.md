@@ -5,14 +5,14 @@
     **Option 1**: Opening QuPath through OnDemand
     [Link to video walk through](https://vanandelinstitute.sharepoint.com/:v:/s/optical/EfpUD6Mp1U1LpWS3P44X38wBOOi02MNeVR-qQpkoK-a7Cw?e=cy5SNH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
     
-    Nativate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
+    Navigate to VAI's OnDemand site and log in with your VAI account. The OnDemand site link can be found on VAI's SharePoint.
 
     Using the `hpc desktop`, start a `short` partition for `4 hours` using `16 cores`.
     ![Image of HPC OnDemand System](/Tutorials/Tutorial_Imgs/OnDemand_pic.png)
 
     ![Image of short partition settings](/Tutorials/Tutorial_Imgs/OnDemand_short_partition_pic.png)
     
-    Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virutal desktop.
+    Once the session starts, set the `compression to 0 (low)` and the `Image Quality to 9 (high)` and launch the virtual desktop.
     ![Image of Virtual Desktop settings](/Tutorials/Tutorial_Imgs/OnDemand_desktop_settings_pic.png)
 
     Open the terminal
@@ -34,15 +34,12 @@
 
 3. Drag and drop the empty folder into the open instance of QuPath.
 
-    ![GIF of Creating a Project](/Tutorials/Tutorial_Imgs/Create_QuPath_Project-2.gif)
+    ![Creating a Project]()
 
-    [Link to HD video of GIF](https://vanandelinstitute-my.sharepoint.com/:v:/g/personal/kristin_gallik_vai_org/ERhK065VogdClsJmVZ3Ml-UBhhr9p4Hy_Aq2wNvSC_HsYQ?e=gfpV6W&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 4. Now you're ready to add in images! Drag and drop images you would like to add to the project into the open QuPath window.
 
-    ![GIF of Adding Images to Project](/Tutorials/Tutorial_Imgs/Adding_Images.gif)
+    ![Adding Images to Project]()
     
-    [Link to HD video of GIF](https://vanandelinstitute-my.sharepoint.com/:v:/g/personal/kristin_gallik_vai_org/EdF_U07qQhdHoG4uNjMmOjsBb7V7W9bvyvE4FcMSaFXTEw?e=MtjvNQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
     Select `Bio-Formats` as the image server and the type of image (e.g., fluorescent, H&E, HDAB, Other). This can be corrected if a mistake is made. You can select multiple images and add them at the same time.
 
 [Link to the slide deck presented, covers the layout of QuPath's Graphic User Interface](https://vanandelinstitute-my.sharepoint.com/:p:/g/personal/kristin_gallik_vai_org/EW2hmxe3mDJBmM5PNXSkau4BSGk77gxMTWqw_CFqQ10eiw?e=b7hiwj)
