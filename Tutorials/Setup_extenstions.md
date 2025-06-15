@@ -25,4 +25,4 @@ Your extensions should now be available under the Extensions menu.
 
 <img src='/Tutorials/Tutorial_Imgs/Installed_Extensions.png' width='224' height='228'><br>
 
-<mark>**If you use any of the extensions for analysis that becomes published, please cite both QuPath and the extensions used appropriately in the Methods section.**</mark>
+<mark>**If you use any of the extensions for published works, please cite both QuPath and the extensions used appropriately in the Methods section.**</mark>
