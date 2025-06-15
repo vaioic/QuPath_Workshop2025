@@ -22,4 +22,4 @@ In an open instance of QuPath, open/add the Kidney_3chan.czi image then open the
 Select the Rectangle Annotation button in the window and then click Live Mode. Draw a rectangle that roughly covers the full kidney, SAM will automatically create a segmentation outline that outlines the full kidney.
 
 <img src='/Tutorials/PNGs/SAM_Outline.png' width='372' height='239'><br>
-
+<img src='/Tutorials/PNGs/SAM_Outline2.png' width='372' height='239'><br>
