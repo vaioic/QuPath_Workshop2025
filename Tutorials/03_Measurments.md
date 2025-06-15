@@ -18,15 +18,15 @@ Create a full image annotation with `Ctrl+Shift+A` to create a rectangle annotat
 
 Any parameters not mentioned are left at their default settings.
 
-<img src="/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection.png" width="275" height="436"><br>
+<img src="/Tutorials/PNGs/BPAE_Nucleus_Detection.png" width="275" height="436"><br>
 
 You should see something like this:
 
-<img src="/Tutorials/Tutorial_Imgs/BPAE_Nucleus_Detection_Results.png" width="477" height="474"><br>
+<img src="/Tutorials/PNGs/BPAE_Nucleus_Detection_Results.png" width="477" height="474"><br>
 
 Double click on any of the cell detections to view its measurements in the annotation tab.
 
-<img src="/Tutorials/Tutorial_Imgs/BPAE_Cell_Measurements.png" width="488" height="429"><br>
+<img src="/Tutorials/PNGs/BPAE_Cell_Measurements.png" width="488" height="429"><br>
 
 In addition to shape descriptor measurements, there are compartment specific measurements for each channel (e.g., Nucleus, Cytoplasm, and Cell). However, the measurements listed here are not the only ones available through QuPath. Intensity measurements that capture the texture and distribution of the fluorescence can be added.
 
@@ -39,7 +39,7 @@ For today, we will only add Haralick features under Add intensity features. When
 
 If you want to read more about how Haralick features are calculated, here is a [nice resource document](https://juliaimages.org/ImageFeatures.jl/stable/tutorials/glcm/).
 
-<img src="/Tutorials/Tutorial_Imgs/Haralick_Features.png" width="293" height="443"><br>
+<img src="/Tutorials/PNGs/Haralick_Features.png" width="293" height="443"><br>
 
 *Note: the settings for ROIs can be ignored, this only applies to specific ROIs in use which are outside the scope of this tutorial/workshop.*
 
@@ -54,4 +54,4 @@ QuPath has several options for exporting measurements, these are based on the hi
 
 Open the Export measurements (Measure > Export measurements) and select the image(s) to export the measurements of (use arrow keys on the window to move from left to right window), specify the measurement level, and optionally specify measurements to export. If no measurements are specified, then all measurements are exported. Additionally select where the measurements should be saved and the separator type (all options can be opened with R, Excel, or other data frame readers).
 
-<img src="/Tutorials/Tutorial_Imgs/Saving_Measurements.png" width="456" height="375"><br>
+<img src="/Tutorials/PNGs/Saving_Measurements.png" width="456" height="375"><br>

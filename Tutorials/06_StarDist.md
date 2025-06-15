@@ -10,7 +10,7 @@ You will also need the StarDist models located [here](/Tutorials/StarDist_Models
 
 After installing the extension and downloading the models, go to Extensions > StarDist. You will see four script options that are pre-written to run on the datatype specified.
 
-<img src='/Tutorials/Tutorial_Imgs/StarDist_Scripts.png' width='347' height='237'><br>
+<img src='/Tutorials/PNGs/StarDist_Scripts.png' width='347' height='237'><br>
 
 We will test out the fluorescence and H&E models.
 

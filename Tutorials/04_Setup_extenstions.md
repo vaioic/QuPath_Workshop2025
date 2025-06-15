@@ -7,7 +7,7 @@ Open the preferences menu (File > Preferences). Under Extensions use the folder 
 
 *Note: a new folder will be made within the parent folder called "extensions". This is normal.*
 
-<img src='/Tutorials/Tutorial_Imgs/Extensions_Folder.png' width='495' height='368'><br>
+<img src='/Tutorials/PNGs/Extensions_Folder.png' width='495' height='368'><br>
 
 We will add the following extensions to QuPath:
 - [StarDist](https://github.com/qupath/qupath-extension-stardist)
@@ -23,6 +23,6 @@ Drag and drop all of the files into an open instance of QuPath, they should auto
 
 Your extensions should now be available under the Extensions menu.
 
-<img src='/Tutorials/Tutorial_Imgs/Installed_Extensions.png' width='224' height='228'><br>
+<img src='/Tutorials/PNGs/Installed_Extensions.png' width='224' height='228'><br>
 
 <mark>**If you use any of the extensions for published works, please cite both QuPath and the extensions used appropriately in the Methods section.**</mark>
