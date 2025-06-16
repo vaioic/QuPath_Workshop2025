@@ -1,5 +1,5 @@
 # Workflows and batch analysis in QuPath
-One of the best features of QuPath is that you can interactively create and fine tune and analysis pipeline without risk of loosing track of the perfect parameters (with some exceptions). In this tutorial, we will build out a reusable workflow to run on a small batch of images.
+One of the best features of QuPath is that you can interactively create and fine tune an analysis pipeline without risk of losing track of the perfect parameters (with some exceptions). In this tutorial, we will build out a reusable workflow to run on a small batch of images.
 
 ## The workflow tab
 Most of the built in functions in QuPath are recorded in the order they occurred and with the parameters used under the workflow tab. Extensions are not recorded in the workflow tab, but can be integrated with the script generated using Create Workflow.
@@ -17,11 +17,11 @@ Open the BPAE_63x_3x4tile_Airyscan Processing_Stitch_MIP.czi image. We used this
 
 <img src='/Tutorials/PNGs/CreateWorkflow.png' width='410' height='634'><br>
 
-Click on the commands to check the parameters. Right click on the commands to remove repeat commands (keep the one with the parameters you liked the most) and reorder them. Your final workflow should look similar to the one above. After finalizing, click on Create script. A Script Editor window will open with the commands written in groovy and in the correct order. If you had multiple images of the same type to analyze in the same way, you could run this script for all (or select) images in the QuPath project (Run > Run for project). 
+Click on the commands to check the parameters. Right click on the commands to remove repeat commands (keep the one with the parameters you liked the most) and reorder them as needed. Your final workflow should look similar to the one above. After finalizing, click on Create script. A Script Editor window will open with the commands written in groovy and in the correct order. If you had multiple images of the same type to analyze in the same way, you could run this script for all (or select) images in the QuPath project (Run > Run for project). 
 
 Test out the script by deleting all objects in the image (Objects > Delete > Delete all objects) and then click Run on the script editor.
 
-If you are running a script on a batch of images, add the following code snippet to the end of the script. QuPath can hog memory on the HPC and cause out of error messages when running a batch analysis. This snippet will help clear memory so the script can run without issue.
+If you are running a script on a batch of images, add the following code snippet to the end of the script. QuPath can hog memory on the HPC and cause out of error messages when running a batch analysis (this will cause the node to crash!). This snippet will help clear memory so the script can run without issue.
 
 ```
 //Add to end of any script running in batch to help clear up memory space. Very important for running batch scripts on HPC
