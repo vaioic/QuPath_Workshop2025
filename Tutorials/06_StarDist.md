@@ -55,6 +55,8 @@ Use `0.345` for the `pixelSize` and run the script.
 
 ![StarDist Results H&E](/Tutorials/PNGs/StarDist_Results2.png)
 
+Try out different parameters to see how they influence the results.
+
 ### Common Errors
 ```
 ERROR: No parent objects are selected!
