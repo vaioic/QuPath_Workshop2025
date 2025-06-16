@@ -11,6 +11,9 @@ Welcome to the mini workshop for QuPath! You will find tutorials on the differen
 - [CellPose](/Tutorials/07_CellPose.md)
 - [Making a reusable workflow](/Tutorials/08_Workflows.md)
 
+## Images
+Images can be accessed on the [OIC SharePoint](https://vanandelinstitute.sharepoint.com/:f:/r/sites/optical/Resource%20Documents/Image%20Analysis%20Resources/QuPath%20Workshop%202025/Images?csf=1&web=1&e=D00re7)
+
 ## QuPath Resources
 [**Official Documentation**](https://qupath.readthedocs.io/en/stable/)
 
