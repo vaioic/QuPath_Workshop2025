@@ -17,9 +17,10 @@ We will test out the fluorescence and H&E models.
 ## Running StarDist
 StarDist is run through a script. There are a few parameters available in the script to fine tune the results of the model.
 
-- `channels('name' or index of channel)` The channel that contains blob like objects. If using index value, indexing starts a 0.
+- `channels('name' or index of channel)` The channel that contains blob like objects. If using index value, indexing starts a 0. *Only applies to fluorescence-like images.*
 - `threshold(value between 0-1)` The higher the value the more stringent the results.
 - `pixelSize(any floating point value)` Minimum value should be the pixel size of the image. Increasing the number will down sample the image prior to running STarDist, the more down sampling the less accurate the outlines.
+- `normalizePercentiles(lower, upper)` Default is `1,99` which works well for most data. Increase the lower value to cut out background and decrease the upper value if the signals are very dim. 
 
 The location of the model also needs to be provided in the variable `modelPath`.
 
@@ -43,5 +44,24 @@ Select the rectangle (should be highlighted) and then press `Run` to run StarDis
 
 ![StarDist Results fluorescence](/Tutorials/PNGs/StarDist_Results.png)
 
+Try changing some of the parameters to see how they influence the results.
 
+*Tip: If you are using a script to batch analyze your data, find the parameters that generally work well on your data and then save the script in the QuPath project for documentation and future use.*
 
+### H&E model
+Open 44770.svs to test out the H&E model. Create a 2048X2048 rectangle and place it somewhere interesting. Then open `StarDist H&E nucleus detection script`. Like with using `StarDist fluorescence cell detection script`, you will need to add in the path to the `he_heavy_augment.pb` model. Because this model was trained on RGB images of H&E stained samples, you do not need to specify a channel. You can still adjust the `normalizePercentiles`, `threshold`, and `pixelSize` parameters to fine tune the results. 
+
+Use `0.345` for the `pixelSize` and run the script.
+
+![StarDist Results H&E](/Tutorials/PNGs/StarDist_Results2.png)
+
+### Common Errors
+```
+ERROR: No parent objects are selected!
+```
+This means that the annotation is not selected, double click on the annotation in the image or select it in the Annotation tab and run the script again.
+
+```
+ERROR: I couldn't find the model file /typo/or/wrong/path/heheavy_augment.pb in QuPathScript at line number 25
+```
+Check the path or the slash type used. Groovy (the scripting language for QuPath) does not recognize `\` for paths, use either `\\` or `/`
