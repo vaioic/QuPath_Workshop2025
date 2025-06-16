@@ -2,7 +2,7 @@
 While most tools and extensions in QuPath are set to collect measurements at default, there are cases where you need to add measurements in later or add in additional measurements that are not included in the standard measurement settings. Here we will cover adding in measurements and how to export them for downstream statistical analysis.
 
 ## Adding more measurements
-Add or open BPAE_63x_3x4tile_Airyscan Processing_Stitch_MIP.czi to the QuPath project. Quickly get some nuclear detections with cell expansion with the following settings using [Cell Detection](/Tutorials/Builtin_Tools.md).
+Add or open BPAE_63x_3x4tile_Airyscan Processing_Stitch_MIP.czi to the QuPath project. Quickly get some nuclear detections with cell expansion with the following settings using [Cell Detection](/Tutorials/02_Builtin_Tools.md).
 
 Create a full image annotation with `Ctrl+Shift+A` to create a rectangle annotation the same dimensions of the image.
 
