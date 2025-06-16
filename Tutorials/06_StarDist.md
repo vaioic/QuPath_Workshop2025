@@ -41,7 +41,7 @@ Change `pixelSize` to `0.345` and enter the path to the location of the dsb2018_
 
 Select the rectangle (should be highlighted) and then press `Run` to run StarDist. It should take approximately 1 min to run on the Short Partition.
 
-<img src='/Tutorials/PNGs/StarDist_Results.png' width='533' height='203'>
+![StarDist Results fluorescence](/Tutorials/PNGs/StarDist_Results.png)
 
 
 
