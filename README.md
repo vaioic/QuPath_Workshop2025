@@ -2,13 +2,14 @@
 Welcome to the mini workshop for QuPath! You will find tutorials on the different topics covered and links to the images used for this workshop.
 
 ## Tutorials
-- [Creating a Project](/Tutorials/Create_QuPath_project.md)
-- [Built in Tools (Segmentation and classifiers)](/Tutorials/Builtin_Tools.md)
-- [Getting Measurements](/Tutorials/Measurments.md)
-- [CellPose](/Tutorials/CellPose.md)
-- [StarDist](/Tutorials/StarDist.md)
-- [Segment Anything Model (SAM)](/Tutorials/SAM.md)
-- [Making a reusable workflow](/Tutorials/Workflows.md)
+- [Creating a Project](/Tutorials/01_Create_QuPath_project.md)
+- [Built in Tools (Segmentation and classifiers)](/Tutorials/02_Builtin_Tools.md)
+- [Getting Measurements](/Tutorials/03_Measurments.md)
+- [Setup Extensions](/Tutorials/04_Setup_extenstions.md)
+- [Segment Anything Model (SAM)](/Tutorials/05_SAM.md)
+- [StarDist](/Tutorials/06_StarDist.md)
+- [CellPose](/Tutorials/07_CellPose.md)
+- [Making a reusable workflow](/Tutorials/08_Workflows.md)
 
 ## QuPath Resources
 [**Official Documentation**](https://qupath.readthedocs.io/en/stable/)
