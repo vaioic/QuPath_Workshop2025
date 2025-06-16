@@ -19,7 +19,7 @@ StarDist is run through a script. There are a few parameters available in the sc
 
 - `channels('name' or index of channel)` The channel that contains blob like objects. If using index value, indexing starts a 0. *Only applies to fluorescence-like images.*
 - `threshold(value between 0-1)` The higher the value the more stringent the results.
-- `pixelSize(any floating point value)` Minimum value should be the pixel size of the image. Increasing the number will down sample the image prior to running STarDist, the more down sampling the less accurate the outlines.
+- `pixelSize(any floating point value)` Minimum value is the pixel size of the image. Increasing the number will down sample the image prior to running StarDist, the more down sampling the less accurate the outlines.
 - `normalizePercentiles(lower, upper)` Default is `1,99` which works well for most data. Increase the lower value to cut out background and decrease the upper value if the signals are very dim. 
 
 The location of the model also needs to be provided in the variable `modelPath`.
