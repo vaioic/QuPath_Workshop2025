@@ -24,3 +24,4 @@ Images can be accessed on the [OIC SharePoint](https://vanandelinstitute.sharepo
 [**Mike Nelson's Amazing Website on QuPath**](https://www.imagescientist.com/image-analysis)
 
 
+<mark>**If you use QuPath or any of the extensions for QuPath for data analysis in a publication, please cite both QuPath and the extensions used appropriately in the methods section.**</mark>
