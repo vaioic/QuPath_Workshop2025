@@ -3,8 +3,7 @@
 The easiest way to install QuPath is using the installer through QuPath's website:  
 [QuPath Website](https://qupath.github.io/)  
 
-<img src="/Tutorials/PNGs/QuPath_Website.png" width=" 474" height="438"><br>
-![QuPath Website Home Page](/Tutorials/PNGs/QuPath_Website.png)  
+<img src="/Tutorials/PNGs/QuPath_Website.png" width=" 474" height="438"><br>  
 Choose the installer for your operating system. The Window's msi installer is like a click-through installer wizard and the portable zip option is the full software contained in a zip file. If you choose the zip option, you will need to unzip the folder and move QuPath to your computer's C: drive.  
 
 When installing on Windows, you may encounter this warning:  
