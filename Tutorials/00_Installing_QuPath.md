@@ -1,0 +1,25 @@
+# Installing QuPath v6.0 (Personal Computer)
+
+The easiest way to install QuPath is using the installer through QuPath's website:  
+[QuPath Website](https://qupath.github.io/)  
+
+![QuPath Website Home Page](/Tutorials/PNGs/QuPath_Website.png)  
+Choose the installer for your operating system. The Window's msi installer is like a click-through installer wizard and the portable zip option is the full software contained in a zip file. If you choose the zip option, you will need to unzip the folder and move QuPath to your computer's C: drive.  
+
+When installing on Windows, you may encounter this warning:  
+![QuPath install warning](/Tutorials/PNGs/QuPath_Install_Warning.png)  
+
+Click on the `...` button in the upper right and select `Keep`.  
+![Keep QuPath install](/Tutorials/PNGs/QuPath_Install_Warning_Keep.png)  
+
+And then you may be prompted *again* to make extra sure you want to install QuPath:  
+![Really keep QuPath](/Tutorials//PNGs/QuPath_Install_Warning_Keep2.png)
+
+
+**Important Note for Apple Silicon users**  
+Due to some incompatibilities between Bio-Formats (an open source server for handling many image file formats including proprietary formats from Zeiss, Leica, and Nikon) and the new M1 Apple computers, Bio-Formats cannot be used to open image files. While you will still be able to open most images using other servers, you **will not** be able to open certain Zeiss (.czi) images like those from the AxioScan instruments. To accommodate this issue, there will be OME-TIF copies of any .czi files used for this workshop.  
+
+If you are experiencing any issues with installation, please consult the installation documentation [here](https://qupath.readthedocs.io/en/stable/docs/intro/installation.html#).
+
+Once you have QuPath installed, test out opening it up. You should see this window:
+
