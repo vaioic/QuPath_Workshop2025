@@ -15,7 +15,6 @@ Click on the `...` button in the upper right and select `Keep`.
 And then you may be prompted *again* to make extra sure you want to install QuPath:  
 ![Really keep QuPath](/Tutorials//PNGs/QuPath_Install_Warning_Keep2.png)
 
-
 **Important Note for Apple Silicon users**  
 Due to some incompatibilities between Bio-Formats (an open source server for handling many image file formats including proprietary formats from Zeiss, Leica, and Nikon) and the new M1 Apple computers, Bio-Formats cannot be used to open image files. While you will still be able to open most images using other servers, you **will not** be able to open certain Zeiss (.czi) images like those from the AxioScan instruments. To accommodate this issue, there will be OME-TIF copies of any .czi files used for this workshop.  
 
