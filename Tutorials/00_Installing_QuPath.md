@@ -22,4 +22,9 @@ If you are experiencing any issues with installation, please consult the install
 
 Once you have QuPath installed, test out opening it up. You will be prompted to agree to the licensing to use the software the first time you open it (i.e., not to be used for diagnostic purposes). You should then see this window:  
 <img src="/Tutorials/PNGs/QuPath_Start.png" width="1024" height="568"><br>  
-Uncheck the box in the bottom right (magenta arrow) to disable the welcome window from opening each time you start QuPath.
+Uncheck the box in the bottom right (magenta arrow) to disable the welcome window from opening each time you start QuPath.  
+
+One more window will pop up asking if you would like to open the extension manager. Click on "no" for now. If we have time in class, we will go over setting up extensions together.  
+<img src="/Tutorials/PNGs/QuPath_Start_Extensions.png" width="1024" height="568"><br>  
+
+If you want to try getting your extensions folder set up on your own, use the [setup extensions tutorial](/Tutorials/04_Setup_extenstions.md). I recommend selecting a directory you know you can relocate easily in the future.
