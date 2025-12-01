@@ -10,7 +10,7 @@ When installing on Windows, you may encounter this warning:
 <img src="/Tutorials/PNGs/QuPath_Install_Warning.png" width="236" height="133"><br> 
 
 Click on the `...` button in the upper right and select `Keep`.  
-<img src="/Tutorials/PNGs/QuPath_Install_Warning.png" width="233" height="188"><br>  
+<img src="/Tutorials/PNGs/QuPath_Install_Warning_Keep.png" width="233" height="188"><br>  
 
 And then you may be prompted *again* to make extra sure you want to install QuPath:  
 <img src="/Tutorials//PNGs/QuPath_Install_Warning_Keep2.png" width="235" height="405"><br>
