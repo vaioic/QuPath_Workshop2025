@@ -1,7 +1,10 @@
 # QuPath_Workshop2025
-Welcome to the mini workshop for QuPath v5.1! You will find tutorials on the different topics covered and links to the images used for this workshop.
+Welcome to the mini workshop for QuPath v5.1! You will find tutorials on the different topics covered and links to the images used for this workshop.  
+
+**Experimental Methods Students**: We will be working with QuPath v6.0, while there may be some visual differences between QuPath v5.1 and v6.0, the functions between the versions remain the same.
 
 ## Tutorials
+- [Installing QuPath on your own computer](/Tutorials/00_Installing_QuPath.md)
 - [Creating a Project](/Tutorials/01_Create_QuPath_project.md)
 - [Built in Tools (Segmentation and classifiers)](/Tutorials/02_Builtin_Tools.md)
 - [Getting Measurements](/Tutorials/03_Measurments.md)
