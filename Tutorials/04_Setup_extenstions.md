@@ -19,7 +19,7 @@ We will add the following extensions to QuPath:
 ## Step 2: Add extensions to the extension folder
 I have provided the .jar and .py files needed for using the extensions we will cover. You can download them [here](/Tutorials/QuPath_Extensions/).
 
-Drag and drop all of the files into an open instance of QuPath, they should automatically install. Then restart QuPath for them to become available. If this does not work, then copy the files into the QuPath_Extentions/extensions folder and restart QuPath. You may need to verify that the location you chose for the extensions folder is still selected in Preferences > Extensions.
+Drag and drop all of the files into an open instance of QuPath, they should automatically install. Then restart QuPath for them to become available. If this does not work, then copy the files into the QuPath_Extensions/extensions folder and restart QuPath. You may need to verify that the location you chose for the extensions folder is still selected in Preferences > Extensions.
 
 Your extensions should now be available under the Extensions menu.
 
