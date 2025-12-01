@@ -16,10 +16,10 @@ And then you may be prompted *again* to make extra sure you want to install QuPa
 <img src="/Tutorials//PNGs/QuPath_Install_Warning_Keep2.png" width="235" height="405"><br>
 
 **Important Note for Apple Silicon users**  
-Due to some incompatibilities between Bio-Formats (an open source server for handling many image file formats including proprietary formats from Zeiss, Leica, and Nikon) and the new M1 Apple computers, Bio-Formats cannot be used to open image files. While you will still be able to open most images using other servers, you **will not** be able to open certain Zeiss (.czi) images like those from the AxioScan instruments. To accommodate this issue, there will be OME-TIF copies of any .czi files used for this workshop.  
+Due to some incompatibilities between Bio-Formats (an open source server for handling many image file formats including proprietary formats from Zeiss, Leica, and Nikon) and the new M1 Apple computers, Bio-Formats cannot be used to open image files. While you will still be able to open most images using other server options in QuPath, you **will not** be able to open certain Zeiss (.czi) images like those from the AxioScan instruments. To accommodate this potential issue, there will be OME-TIF copies of any .czi files used for this workshop.  
 
 If you are experiencing any issues with installation, please consult the installation documentation [here](https://qupath.readthedocs.io/en/stable/docs/intro/installation.html#).
 
 Once you have QuPath installed, test out opening it up. You will be prompted to agree to the licensing to use the software the first time you open it (i.e., not to be used for diagnostic purposes). You should then see this window:  
 <img src="/Tutorials/PNGs/QuPath_Start.png" width="512" height="284"><br>  
-Uncheck the box (magenta arrow) to disable the welcome window from opening each time you start QuPath.
+Uncheck the box in the bottom right (magenta arrow) to disable the welcome window from opening each time you start QuPath.
