@@ -21,5 +21,5 @@ Due to some incompatibilities between Bio-Formats (an open source server for han
 If you are experiencing any issues with installation, please consult the installation documentation [here](https://qupath.readthedocs.io/en/stable/docs/intro/installation.html#).
 
 Once you have QuPath installed, test out opening it up. You will be prompted to agree to the licensing to use the software the first time you open it (i.e., not to be used for diagnostic purposes). You should then see this window:  
-<img src="/Tutorials/PNGs/QuPath_Start.png" width="512" height="284"><br>  
+<img src="/Tutorials/PNGs/QuPath_Start.png" width="1024" height="568"><br>  
 Uncheck the box in the bottom right (magenta arrow) to disable the welcome window from opening each time you start QuPath.
